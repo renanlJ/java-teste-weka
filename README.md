@@ -21,7 +21,7 @@ git clone https://github.com/renanlJ/machinelearning-weka.git
 
 ## Executando a projeto
 
-O arquivos com os dados e modelo está na pasta raiz do projeto com o nome "emprestimo.arff". Indico inserir mais dados e validar as saidas para o mesmo "input".
+O arquivo com os dados e modelo está na pasta raiz do projeto com o nome "emprestimo.arff". Indico inserir mais dados e validar as saidas para o mesmo "input".
 Na pasta do projeto faça a compilação do projeto:
 ```
 mvn compile
