@@ -1,6 +1,6 @@
 # Apredizado de Máquina Supervisionado (Machine Learning) com Weka - Java
 
-Simples exemplo utilizando Weka para previsão de liberação de empréstimo. O algoritmo utilizado para previsão foi o Naive Bayes, utilizando dados rotulados a partir de um arquivo .arff (característica de um algoritmo supervisiona).
+Simples exemplo utilizando Weka para previsão de liberação de empréstimo. O algoritmo utilizado para previsão foi o Naive Bayes, utilizando dados rotulados a partir de um arquivo .arff (característica de um algoritmo supervisionado).
 
 ### Pré-requisitos
 
