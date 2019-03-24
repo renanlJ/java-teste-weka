@@ -1,0 +1,22 @@
+@relation emprestimo
+
+@attribute idade {18-24,25-35,36-50,>=51}
+@attribute divida {nenhuma,baixa,alta}
+@attribute historico {bom,ruim,desconhecido}
+@attribute renda {0-2000,2001-5000,>=5001}
+@attribute emprestimo {baixo,alto}
+
+@data
+18-24,baixa,bom,0-2000,alto
+18-24,alta,ruim,2001-5000,baixo
+18-24,alta,ruim,0-2000,baixo
+>=51,baixa,bom,2001-5000,alto
+>=51,baixa,desconhecido,>=5001,alto
+36-50,alta,ruim,2001-5000,baixo
+36-50,baixa,bom,2001-5000,alto
+25-35,baixa,desconhecido,2001-5000,alto
+25-35,alta,desconhecido,2001-5000,baixo
+25-35,alta,ruim,0-2000,baixo
+36-50,baixa,bom,0-2000,alto
+>=51,alta,bom,>=5001,alto
+18-24,nenhuma,bom,>=5001,alto
